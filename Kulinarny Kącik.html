@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Style.css">
+    <title>Kulinarny-kącik</title>
+</head>
+
+<body>
+    <header>
+        <h1>Witaj w Kulinarnym Kąciku</h1>
+    </header>
+    <section class="main">
+        <h2>Tutaj znajdziesz najlepsze przepisy, które przyjdą ci do głowy!</h2>
+        <form action="/szukaj" method="get">
+            <input type="text" name="query" placeholder="Wyszukaj przepis...">
+            <button type="submit">Szukaj</button>
+        </form>
+        <nav>
+            <a href="Przepisy dnia.html">Przepisy dnia</a>
+            <a href="Najnowsze Pzepisy.html">Najnowsze przepisy</a>
+        </nav>
+        <!-- Lista dostępnych przepisów -->
+        <section class="recipe-list">
+            <h3>Dostępne przepisy</h3>
+            <li><a href="Spaghetti.html">Spaghetti</a></li>
+            <li><a href="/przepis/lasagne">Lasagne</a></li>
+            <li><a href="/przepis/tiramisu">Tiramisu</a></li>
+        </section>
+
+
+</body>
+
+</html>
