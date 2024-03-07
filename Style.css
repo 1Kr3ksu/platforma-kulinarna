@@ -33,6 +33,31 @@ body {
 }
 
 h3 {
-    font-size: 60px;
+    font-size: 40px;
+    margin-top: -10px;
 
+}
+
+.recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    background-color: #82E0AA;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    color: #006837;
+    font-weight: bold;
+}
+
+.recipe-list li a:hover {
+    background-color: #006837;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
 }
