@@ -9,7 +9,33 @@ h2 {
 }
 
 form {
-    margin-right: auto;
+
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex-end;
+
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #001f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00331a;
+
 }
 
 body {
@@ -26,10 +52,11 @@ body {
     padding: 20px;
     text-align: center;
     margin-bottom: 20px;
-    width: 750px;
-    height: 500px;
+    width: 46.875rem;
+    height: 31.25rem;
     margin: 0 auto;
     border-radius: 40px;
+    margin-top: 2rem;
 }
 
 h3 {
@@ -60,4 +87,29 @@ h3 {
     background-color: #006837;
     color: #fff;
     transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background-color: #001f0f;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 20px 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #00331a;
 }

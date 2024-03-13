@@ -9,25 +9,32 @@
 </head>
 
 <body>
+    </form>
+
     <header>
         <h1>Witaj w Kulinarnym Kąciku</h1>
     </header>
     <section class="main">
         <h2>Tutaj znajdziesz najlepsze przepisy, które przyjdą ci do głowy!</h2>
-        <form action="/szukaj" method="get">
-            <input type="text" name="query" placeholder="Wyszukaj przepis...">
-            <button type="submit">Szukaj</button>
-        </form>
         <nav>
             <a href="Przepisy dnia.html">Przepisy dnia</a>
             <a href="Najnowsze Pzepisy.html">Najnowsze przepisy</a>
+
+            <form action="/szukaj" method="get">
+                <input type="text" name="query" placeholder="Wyszukaj przepis...">
+                <button type="submit">Szukaj</button>
+            </form>
+
         </nav>
+
+
+
 
         <section class="recipe-list">
             <h3>Dostępne przepisy</h3>
             <li><a href="Spaghetti.html">Spaghetti</a></li>
-            <li><a href="/przepis/lasagne">Lasagne</a></li>
-            <li><a href="/przepis/tiramisu">Tiramisu</a></li>
+            <li><a href="lasagne.html">Lasagne</a></li>
+            <li><a href="Tiramisu.html">Tiramisu</a></li>
             <li><a href="Przepisy dnia.html">Naleśniki</a>
         </section>
 

@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(180deg, #82E0AA 3%, #006837 25%, #001f0f 100%);
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
+    padding: 20px;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    text-align: center;
+    font-size: 36px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+h2 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.Main {
+    background-color: #fff;
+    color: #333;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.Main img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.how-to {
+    background-color: #f8f8f8;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #006837;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: auto;
+    font-size: 16px;
+    /* Dodano wielkość tekstu dla przycisku */
+}
+
+.back-button:hover {
+    background-color: #004922;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
