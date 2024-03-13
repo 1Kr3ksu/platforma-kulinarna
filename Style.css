@@ -42,7 +42,8 @@ body {
     background: linear-gradient(180deg, #82E0AA 3%, #006837 25%, #001f0f 100%);
     color: #fff;
     text-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
-    padding: 20px;
+    padding: 0px;
+    margin: 0px;
     height: 1280px;
 }
 
@@ -106,10 +107,35 @@ nav {
 nav a {
     color: white;
     text-align: center;
-    padding: 20px 22px;
+    padding: 16px 14px;
     text-decoration: none;
 }
 
 nav a:hover {
     background-color: #00331a;
+}
+
+/* Styl dla stopki */
+footer {
+    background-color: #001f0f;
+    /* Kolor tła stopki */
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+footer {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
 }
