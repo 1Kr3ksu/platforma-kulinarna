@@ -1,0 +1,169 @@
+h1 {
+    text-align: center;
+
+
+}
+
+h2 {
+    text-align: center;
+}
+
+form {
+
+    margin: 20px auto;
+    max-width: 600px;
+    display: flex-end;
+
+}
+
+form input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+form button {
+    padding: 10px 20px;
+    background-color: #001f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #00331a;
+
+}
+
+body {
+    background: linear-gradient(180deg, #82E0AA 3%, #006837 25%, #001f0f 100%);
+    color: #fff;
+    text-shadow: 0 0 10px rgba(0, 255, 136, 0.8);
+    padding: 0px;
+    margin: 0px;
+    height: 1280px;
+}
+
+.recipe-list {
+    border: 6px solid #292929;
+    background-color: #82E0AA;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    width: 46.875rem;
+    height: 31.25rem;
+    margin: 0 auto;
+    border-radius: 40px;
+    margin-top: 2rem;
+}
+
+h3 {
+    font-size: 40px;
+    margin-top: -10px;
+
+}
+
+.recipe-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.recipe-list li {
+    background-color: #82E0AA;
+    padding: 15px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.recipe-list li a {
+    text-decoration: none;
+    color: #006837;
+    font-weight: bold;
+}
+
+.recipe-list li a:hover {
+    background-color: #006837;
+    color: #fff;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+nav {
+    background-color: #001f0f;
+    overflow: hidden;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    align-items: center;
+}
+
+
+
+
+
+nav a {
+    color: white;
+    text-align: center;
+    padding: 16px 14px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #00331a;
+}
+
+
+footer {
+    background-color: #001f0f;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+
+}
+
+
+footer {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+footer a:hover {
+    text-decoration: underline;
+
+}
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    body {
+        font-size: 14px;
+    }
+}
+
+.back-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #006837;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease-in-out;
+    margin-right: auto;
+}
+
+.back-button:hover {
+    background-color: #004922;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}

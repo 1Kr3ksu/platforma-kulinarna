@@ -18,7 +18,8 @@
         <h2>Tutaj znajdziesz najlepsze przepisy, które przyjdą ci do głowy!</h2>
         <nav>
             <a href="Przepisy dnia.html">Przepisy dnia</a>
-            <a href="Najnowsze Pzepisy.html">Najnowsze przepisy</a>
+            <a href="Najnowsze Pzepisy.php">Najnowsze przepisy</a>
+            <a href="inne.php">Inne</a>
 
             <form action="/szukaj" method="get">
                 <input type="text" name="query" placeholder="Wyszukaj przepis...">
