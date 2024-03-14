@@ -138,3 +138,16 @@ footer a:hover {
     text-decoration: underline;
 
 }
+
+.container {
+    width: 100%;
+    display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+
+
+    body {
+        font-size: 14px;
+    }
+}
