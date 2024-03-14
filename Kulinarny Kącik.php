@@ -40,9 +40,6 @@
 
         <footer>
             <p>&copy; 2024 Kacper Bielawski | Wszelkie Prawa Zastrzeżone | Projekt blog kulinarny</p>
-            <!-- Dodaj dodatkowe linki w stopce, jeśli są potrzebne -->
-            <!-- <a href="#">Link 1</a> -->
-            <!-- <a href="#">Link 2</a> -->
         </footer>
         <?php
         $servername = "localhost";
@@ -53,8 +50,10 @@
         $conn = new mysqli($servername, $username, $password , $dbname);
         if ($conn->connect_error) {
             die("Połączenie nieudane: " . $conn->connect_error);
+        } else {
+            echo "Połączenie_udane!";
         }
-        
+        $conn->close();
          ?>
 </body>
 
