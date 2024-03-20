@@ -19,7 +19,7 @@
         <nav>
             <a href="Przepisy dnia.html">Przepisy dnia</a>
             <a href="Najnowsze Pzepisy.php">Najnowsze przepisy</a>
-            <a href="inne.php">Inne</a>
+            <a href="Przepisy.php">Inne</a>
 
             <form action="/szukaj" method="get">
                 <input type="text" name="query" placeholder="Wyszukaj przepis...">
