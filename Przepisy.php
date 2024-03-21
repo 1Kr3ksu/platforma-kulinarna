@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Wasze-Przepisy!</title>
-    <link rel="stylesheet" href="Najnowsze Przepisy.css">
+    <link rel="stylesheet" href="Najnowsze przepisy.css">
 </head>
 
 <body>

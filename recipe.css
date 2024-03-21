@@ -12,12 +12,6 @@ body {
     align-items: center
 }
 
-h1 {
-    text-align: center;
-
-
-}
-
 .main {
     background-color: #fff;
     color: #333;
@@ -34,13 +28,6 @@ h1 {
     margin-bottom: 20px;
 }
 
-.How-to {
-    background-color: #f8f8f8;
-    padding: 15px;
-    margin-top: 20px;
-    border-radius: 8px;
-}
-
 .back-button {
     display: inline-block;
     padding: 10px 20px;
@@ -55,33 +42,4 @@ h1 {
 .back-button:hover {
     background-color: #004922;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-}
-
-form {
-    margin-left: auto;
-    max-width: 600px;
-    display: flex-end;
-
-}
-
-form input[type="text"] {
-    flex: 1;
-    padding: 10px;
-    box-sizing: border-box;
-    border: none;
-    border-radius: 5px;
-}
-
-form button {
-    padding: 10px 20px;
-    background-color: #001f0f;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-}
-
-form button:hover {
-    background-color: #00331a;
-
 }
