@@ -16,6 +16,7 @@ if ($conn->connect_error) {
 
 $title = $_POST['title'];
 $description = $_POST['description'];
+$photo = $_POST["photo"];
 
 $sql = "INSERT INTO przepisy(tytul, opis) VALUES ('$title', '$description')";
 

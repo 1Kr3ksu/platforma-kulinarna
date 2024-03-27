@@ -43,3 +43,34 @@ body {
     background-color: #004922;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
 }
+
+.connection select {
+    background-color: transparent;
+    border: 1px solid #ccc;
+    padding: 8px;
+    font-size: 16px;
+    width: 200px;
+    max-width: 100%;
+    border-radius: 5px;
+    /* Zaokrąglenie krawędzi */
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    outline: none;
+    /* Usunięcie obramowania */
+}
+
+.connection select:focus {
+    border-color: dodgerblue;
+    /* Kolor obramowania po najechaniu */
+}
+
+.connection option {
+    background-color: #fff;
+    color: #333;
+}
+
+.connection option:hover {
+    background-color: lightgray;
+    color: #000;
+}

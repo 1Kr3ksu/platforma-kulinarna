@@ -14,18 +14,23 @@
         <a href="Kulinarny Kącik.php" class="back-button">Powrót </a>
     </header>
     <h2>Dodaj swój przepis</h2>
-    <form action="submit.php" method="POST">
+    <form id="kacper-form" action="submit.php" method="POST">
         <input type="text" name="title" placeholder="Tytuł">
         <br>
-        <input type="text" name="description" placeholder="Opis">
+        <input type="text" name="description" placeholder="Składniki">
         <br>
-        <select name="category">
+        <input type="text" name="sps" placeholder="Sposób Przygotowania">
+        <br>
+        <input type="file" name="photo" placeholder="Zdjecie">
+
+        <select name="category" class="category">
             <option value="breakfast">Śniadanie</option>
             <option value="lunch">Obiad</option>
             <option value="dessert">Deser</option>
         </select>
         <button type="submit">Dodaj</button>
     </form>
+
 </body>
 
 </html>

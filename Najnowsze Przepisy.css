@@ -8,16 +8,15 @@ h2 {
     text-align: center;
 }
 
-form {
+#kacper-form {
     margin-left: 20px;
-    /* Przesunięcie formularza do lewej */
     max-width: 600px;
     display: flex;
     align-items: center;
-    /* Wyrównanie elementów w pionie */
+
 }
 
-form input[type="text"] {
+#kacper-form input[type="text"] {
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
@@ -28,7 +27,18 @@ form input[type="text"] {
     /* Margines z prawej strony */
 }
 
-form button {
+#kacper-form input[type="file"] {
+    flex: 1;
+    padding-right: 200px;
+    box-sizing: border-box;
+
+
+    /* Dodanie obramowania */
+
+    /* Margines z prawej strony */
+}
+
+#kacper-form button {
     padding: 10px 20px;
     background-color: #001f0f;
     color: #fff;
@@ -39,9 +49,11 @@ form button {
     /* Płynna zmiana koloru tła */
 }
 
-form button:hover {
+#kacper-form button:hover {
     background-color: #00331a;
 }
+
+
 
 body {
     background: linear-gradient(180deg, #82E0AA 3%, #006837 25%, #001f0f 100%);
@@ -83,4 +95,9 @@ h3 {
 .back-button:hover {
     background-color: #004922;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+#file-input {
+    width: 200px;
+    height: 21px;
 }
