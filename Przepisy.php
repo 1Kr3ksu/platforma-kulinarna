@@ -17,11 +17,11 @@
     <form id="kacper-form" action="submit.php" method="POST">
         <input type="text" name="title" placeholder="Tytuł">
         <br>
+        <input type="text" name="description" placeholder="Opis">
+        <br>
         <input type="text" name="description" placeholder="Składniki">
         <br>
-        <input type="text" name="sps" placeholder="Sposób Przygotowania">
-        <br>
-        <input type="file" name="photo" placeholder="Zdjecie">
+
 
         <select name="category" class="category">
             <option value="breakfast">Śniadanie</option>

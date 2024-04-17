@@ -16,9 +16,9 @@ if ($conn->connect_error) {
 
 $title = $_POST['title'];
 $description = $_POST['description'];
-$photo = $_POST["photo"];
 
-$sql = "INSERT INTO przepisy(tytul, opis) VALUES ('$title', '$description')";
+
+$sql = "INSERT INTO przepisy(tytul, opis , Składniki) VALUES ('$title', '$description' , '$description')";
 
 if ($conn->query($sql) === TRUE) {
     echo "Gratulacje! Dodałeś przepis!";

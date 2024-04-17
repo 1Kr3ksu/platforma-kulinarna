@@ -9,7 +9,7 @@
 </head>
 
 <body>
-    </form>
+
 
     <header>
         <h1>Witaj w Kulinarnym Kąciku</h1>
@@ -19,7 +19,8 @@
         <nav>
             <a href="Przepisy dnia.html">Przepisy dnia</a>
             <a href="Najnowsze Pzepisy.php">Najnowsze przepisy</a>
-            <a href="Przepisy.php">Przepisy</a>
+            <a href="Przepisy.php">Dodaj Przepis</a>
+
 
             <form action="/szukaj" method="get">
                 <input type="text" name="query" placeholder="Wyszukaj przepis...">
@@ -30,42 +31,21 @@
 
 
 
-
-        <section class="recipe-list">
-            <h3>Dostępne przepisy</h3>
-
-            <!-- <li><a href="Spaghetti.html">Spaghetti</a></li>
-            <li><a href="lasagne.html">Lasagne</a></li>
-            <li><a href="Tiramisu.html">Tiramisu</a></li>
-            <li><a href="Przepisy dnia.html">Naleśniki</a> -->
-
-            <?php
-            include "db_connection.php";
-
-            $sql = "SELECT ID , tytul FROM przepisy";
-
-            $result = $conn->query($sql);
-
-            if ($result->num_rows > 0) {
-                while ($row = $result->fetch_assoc()) {
-                    // echo "<article>";
-                    // echo "<h4>" . $row["tytul"] . "</h4>";
-                    // echo "<p>" . $row["opis"] . "</p>";
-                    // echo "<a href='recipe.php?id=" . $row["ID"] . ">Czytaj więcej</a>";
-                    // echo "</article>";
-
-                    echo "<li><a href='recipe.php?id=" . $row["ID"] . "'>" . $row["tytul"] . "</a></li>";
-                }
-            } else {
-                die("Brak przepisów w bazie danych.");
-            }
-            ?>
-        </section>
-
-        <footer>
-            <p>&copy; 2024 Kacper Bielawski | Wszelkie Prawa Zastrzeżone | Projekt blog kulinarny</p>
-        </footer>
     </section>
+
+    <main class="flex-container-wrap">
+
+        <?php
+        include "display_products.php";
+        ?>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Kacper Bielawski | Wszelkie Prawa Zastrzeżone | Projekt blog kulinarny</p>
+    </footer>
+
+
 </body>
 
 </html>

@@ -1,3 +1,36 @@
+html body {
+    margin: 0;
+}
+
+.flex-container {
+
+    display: flex;
+
+}
+
+.flex-container-wrap {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.topnav {
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.1rem 2rem;
+}
+
+.card {
+    background-color: aquamarine;
+    width: 15rem;
+    height: 15rem;
+    margin: 2px;
+}
+
+.text-center {
+    text-align: center;
+}
+
 h1 {
     text-align: center;
 
@@ -47,48 +80,7 @@ body {
     height: 1280px;
 }
 
-.recipe-list {
-    border: 6px solid #292929;
-    background-color: #82E0AA;
-    padding: 20px;
-    text-align: center;
-    margin-bottom: 20px;
-    width: 46.875rem;
-    height: 31.25rem;
-    margin: 0 auto;
-    border-radius: 40px;
-    margin-top: 2rem;
-}
 
-h3 {
-    font-size: 40px;
-    margin-top: -10px;
-
-}
-
-.recipe-list ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-.recipe-list li {
-    background-color: #82E0AA;
-    padding: 15px;
-    margin-bottom: 10px;
-    border-radius: 10px;
-}
-
-.recipe-list li a {
-    text-decoration: none;
-    color: #006837;
-    font-weight: bold;
-}
-
-.recipe-list li a:hover {
-    background-color: #006837;
-    color: #fff;
-    transition: background-color 0.3s, color 0.3s;
-}
 
 nav {
     background-color: #001f0f;
