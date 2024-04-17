@@ -21,7 +21,8 @@ $description = $_POST['description'];
 $sql = "INSERT INTO przepisy(tytul, opis , Składniki) VALUES ('$title', '$description' , '$description')";
 
 if ($conn->query($sql) === TRUE) {
-    echo "Gratulacje! Dodałeś przepis!";
+    header("Location: gratulacje.php");
+    exit;
 } else {
     echo "Coś poszło nie tak!";
 }

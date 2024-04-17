@@ -21,10 +21,11 @@ html body {
 }
 
 .card {
-    background-color: aquamarine;
-    width: 15rem;
-    height: 15rem;
-    margin: 2px;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 18rem;
+    height: 18rem;
+    margin: 6px;
+    transition: background-color 0.3s ease;
 }
 
 .text-center {
