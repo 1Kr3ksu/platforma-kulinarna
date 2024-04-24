@@ -8,34 +8,62 @@ h2 {
     text-align: center;
 }
 
+.search {
+    margin: 20px auto;
+    max-width: 1800px;
+    display: flex-end;
+
+
+}
+
+.search input[type="text"] {
+    flex: 1;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5px;
+}
+
+.search button {
+    padding: 10px 20px;
+    background-color: #001f0f;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search button:hover {
+    background-color: #00331a;
+
+}
+
+
 #kacper-form {
     margin-left: 20px;
     max-width: 600px;
     display: flex;
     align-items: center;
-
+    border: 2px solid #001f0f;
+    border-radius: 5px;
+    padding: 20px;
 }
 
 #kacper-form input[type="text"] {
     flex: 1;
     padding: 10px;
     box-sizing: border-box;
-    border: 2px solid #001f0f;
-    /* Dodanie obramowania */
+    border: none;
     border-radius: 5px;
     margin-right: 10px;
-    /* Margines z prawej strony */
 }
 
 #kacper-form input[type="file"] {
     flex: 1;
-    padding-right: 200px;
+    padding: 10px;
     box-sizing: border-box;
-
-
-    /* Dodanie obramowania */
-
-    /* Margines z prawej strony */
+    border: none;
+    border-radius: 5px;
 }
 
 #kacper-form button {
@@ -46,7 +74,6 @@ h2 {
     border-radius: 5px;
     cursor: pointer;
     transition: background-color 0.3s ease;
-    /* Płynna zmiana koloru tła */
 }
 
 #kacper-form button:hover {
@@ -90,6 +117,8 @@ h3 {
     border-radius: 5px;
     transition: background-color 0.3s ease-in-out;
     margin-right: auto;
+    position: relative;
+    top: -15px;
 }
 
 .back-button:hover {
@@ -100,4 +129,70 @@ h3 {
 #file-input {
     width: 200px;
     height: 21px;
+}
+
+.recipe-container {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid #82E0AA;
+    border-radius: 10px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: relative;
+    overflow: hidden;
+}
+
+.recipe-container:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #82E0AA, #59AB89);
+    opacity: 0.6;
+    z-index: -1;
+    border-radius: 10px;
+}
+
+.recipe-container h3 {
+    font-size: 24px;
+    color: #001f0f;
+    margin-bottom: 10px;
+    position: relative;
+    z-index: 1;
+}
+
+.recipe-container p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.6;
+    margin-bottom: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.recipe-container a {
+    color: #82E0AA;
+    text-decoration: none;
+    position: relative;
+    z-index: 1;
+}
+
+.recipe-container a:hover {
+    color: #59AB89;
+}
+
+.recipe-container::before {
+    content: '';
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    right: -10px;
+    bottom: -10px;
+    background: linear-gradient(135deg, #82E0AA, #59AB89);
+    opacity: 0.5;
+    border-radius: 20px;
+    z-index: -1;
 }
